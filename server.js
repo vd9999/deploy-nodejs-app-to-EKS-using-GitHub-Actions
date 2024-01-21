@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Vara you successfully deployed APP on EKS using Github actionsl');
 });
 
 app.listen(PORT, HOST, () => {
